@@ -11,3 +11,8 @@ Dentro deste diretorio, será criado 3 arquivos. <br>
 data.enc - Aqui é onde estara a IV e a shared key para montar a chave AES <br>
 key.pub -  É onde estará a public key da chave RSA que foi usada pra criptografar data.enc <br>
 file_hash.json - Hash's dos arquivos criptografados.  <br>
+ 
+ # Instruções 
+ Através do script "genkey.py" gere um par de chaves apartir da senha que o script irá pedir, salve-a a chave publica em "key.pub". Recomendo guarde também a privada, por segurança<br>
+Depois é só fazer um simples script importanto o modulo ransom.py
+ 
