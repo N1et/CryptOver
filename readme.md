@@ -1,4 +1,4 @@
-# PACMAN Ransomware
+# CryptOver
 Esse script é feito apenas para estudos, não me resposabilizo pela suas merdas.
 ## GenKey.py
 Ele gera a chave publica e privada apartir de uma determinada senha, que seria a chave pra descriptografar.
