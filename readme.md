@@ -4,7 +4,7 @@ Esse script é feito apenas para estudos, não me resposabilizo pela suas merdas
 Ele gera a chave publica e privada apartir de uma determinada senha, que seria a chave pra descriptografar.
 Com essa senha vc consegue descriptografar a shared key e IV do algoritmo AES.
 ## Ransom.py
-Arquivo principal. Possui os comandos, em uma classe, para criptografar e etc...
+Possui os comandos, em uma classe, para criptografar e etc...
 
 Assim que acionado, o script cria um diretorio de configuração chamado "ransomware".
 Dentro deste diretorio será criado 3 arquivos: <br>
