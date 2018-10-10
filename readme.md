@@ -6,7 +6,7 @@ A criptografia secundária, algoritmo assimétrico RSA, terá o propósito de cr
 # genkey
 Como dito anteriormente, o algoritmo RSA irá ser gerado apartir de uma chave pré-compartilhada. Para isso, o script *genkey.py* irá pedir uma senha, e, através dela, será gerada, o par de chaves. Porém, se não for especificado, por padrão, apenas a chave pública será impressa. <br>
 *./genkey.py  <br>* 
-*./genkey.py Private_key* 
+*./genkey.py Private_key* <br>
 Por padrão, o script *ransom.py* procurará a chave pública em um arquivo chamado *key.pub*. Por conta disso, é um bom costume que, quando for gerar, adicionar o redirecionamento da saido para tal arquivo.<br>
 *./genkey.py > key.pub*
 
