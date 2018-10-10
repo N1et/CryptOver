@@ -2,7 +2,7 @@
 **[Esse script é feito apenas para estudos, não me resposabilizo pela suas merdas.]**
 
 O ransomware usará como criptografia principal, o algoritmo de chave simétrica **AES**. E como criptografia secundária, usaremos o algoritmo de criptografia assimétrica **RSA**, gerada apartir de uma chave pré-compartilhada. <br>
-  A criptografia secundária, algoritmo assimétrico RSA, terá o propósito de criptografar o arquivo *data.enc*, que é onde será despejado a chave pré-compartilhada(shared key) e a IV correspondente ao primeiro algoritmo gerado, AES em modo CBC. Lembrando que os dados estarão em formato json.
+  A criptografia secundária, algoritmo assimétrico RSA, terá o propósito de criptografar o arquivo *data.enc*, que é onde será despejado a chave pré-compartilhada(shared key) e a IV correspondente ao primeiro algoritmo gerado, AES em modo CFB. Lembrando que os dados estarão em formato json.
 ## Genkey .py
 Como dito anteriormente, o algoritmo RSA irá ser gerado apartir de uma chave pré-compartilhada. Para isso, o script *genkey.py* irá pedir uma senha, e, através dela, será gerada, o par de chaves. Porém, se não for especificado, por padrão, apenas a chave pública será impressa. <br>
 *./genkey.py  <br>* 
