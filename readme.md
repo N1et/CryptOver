@@ -11,4 +11,5 @@ Por padrão, o script *ransom.py* procurará a chave pública em um arquivo cham
 *./genkey.py > key.pub*
 
 ## Ransom .py
-Aqui, é onde contém os comandos necessários para executar as funções ditas anteriormente. Funções como *encrypt_file* entre outras funções, será armazenada neste arquivo. A função *decrypt_file* não foi criada, pois, na minha visão, não achei necessário um *ransomware* ter uma função de descriptografar.
+Aqui, é onde contém os comandos necessários para executar as funções ditas anteriormente. Funções como *encrypt_file* entre outras funções, será armazenada neste arquivo. A função *decrypt_file* não foi criada, pois, na minha visão, não achei necessário um *ransomware* ter uma função de descriptografar.<br>
+Após a execução da função inicial, um diretório de dados do ransomware, chamado de *ransomware*,  será criado. Dentro dele, 3 arquvos serão criados, entre eles o *data.enc* já explicado antes e o *key.pub*, também já explicado. Porém, no meio desses, será criado o arquivo *file_hash.json*, que será onde irá ser despejado as hashs dos arquivos alvos originais, ou seja, antes de serem criptografados. 
